@@ -1,0 +1,26 @@
+<h1>Hello from {{ name }}!</h1>
+<a
+  target="_blank"
+  href="https://angular.io/start"
+  [style.text-decoration]="semSublinhado"
+>
+  Learn more about Angular
+</a>
+<p [style.color]="fontColor">
+  Dá pra setar propriedades no export. A minha cor mesmo é {{ fontColor }}
+</p>
+
+<button type="button" [disabled]="canClick" (click)="sayMessage()">
+  Clica ai parsa
+</button>
+
+<hello name="{{ name }}"></hello>
+
+<menu-component></menu-component>
+<!-- Jeitos de passar valores: -->
+<my-button [label]="buttonLabel"></my-button>
+<my-button [label]="'Aspas Simples'"></my-button>
+
+
+<my-button label="{{ buttonSecond }}"></my-button>
+<my-button label="NOTICIA"></my-button>

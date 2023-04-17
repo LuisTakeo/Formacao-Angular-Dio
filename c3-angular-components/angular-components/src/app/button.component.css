@@ -1,0 +1,6 @@
+button {
+  background-color: aqua;
+  color: #310404;
+  /* padding: 5px; */
+  /* ele sempre prefere o escopo local */
+}
