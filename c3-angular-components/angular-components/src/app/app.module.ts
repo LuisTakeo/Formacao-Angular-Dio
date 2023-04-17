@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { MenuComponent } from './menu.component';
 import { Button } from './button.component';
+import { EntryDataComponent } from './entry-data.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, HelloComponent, MenuComponent, Button
+    AppComponent, HelloComponent, MenuComponent, Button, EntryDataComponent
   ],
   imports: [
     BrowserModule, FormsModule
